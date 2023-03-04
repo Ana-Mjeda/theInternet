@@ -23,7 +23,6 @@ public class ChallengingDomTest extends BaseTest{
         driver.navigate().to(baseURL +  "/challenging_dom");
     }
 
-
     @Test
     public void checkRow6(){
         String row6 = "Iuvaret5 Apeirian5 Adipisci5 Definiebas5 Consequuntur5 Phaedrum5 edit delete";
