@@ -22,8 +22,7 @@ public class LoginTest extends BaseTest{
     @BeforeMethod
     @Override
     public void beforeMethod() {
-        super.beforeMethod();
-        driver.navigate().to("https://the-internet.herokuapp.com/login");
+        driver.navigate().to(baseURL +  "/login");
     }
 
     @Test

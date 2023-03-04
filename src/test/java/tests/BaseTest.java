@@ -14,7 +14,7 @@ public class BaseTest {
 
     protected WebDriverWait driverWait;
 
-    private String baseURL = "https://the-internet.herokuapp.com";
+    protected final String baseURL = "https://the-internet.herokuapp.com";
     @BeforeClass
     public void beforeClass() {
         driver = new ChromeDriver();
